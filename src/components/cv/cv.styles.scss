@@ -1,0 +1,70 @@
+@import '../../general-styling.styles.scss';
+
+.cv {
+    width: 90%;
+    text-align: left;
+    background-color: white;
+
+    @media (min-width: $tablet-breakpoint) {
+        width: 60%;
+        padding: 0 20px;
+        }
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+h2 {
+    color: $blueColor;
+    margin-top: 0;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+section {
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    // border-radius: 10px;
+    // border: 2px solid black;
+
+    span {
+        color: $orangeColor;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+
+    h4 {
+        margin-bottom: 0;
+
+        
+    }
+
+    .educationTitle {
+        margin-top: 3px;
+    }
+    
+    p{
+        margin: 0;
+    }
+
+    
+}
+
+.skills {
+
+    @media (min-width: $tablet-breakpoint) {
+        display: flex;
+        justify-content: space-evenly;
+
+        div {
+            width: 50%;
+        }
+        }
+    
+}

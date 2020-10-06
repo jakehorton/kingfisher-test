@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 nav {
-  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,12 +15,29 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-weight: bold;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  nav {
+    width: 60vw;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 nav img {
-  width: 80px;
-  height: 40px;
+  width: 95px;
+  height: 30px;
   padding-left: 10px;
+}
+
+@media (min-width: 768px) {
+  nav img {
+    padding: 0;
+  }
 }
 
 nav ul {
@@ -33,6 +54,12 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: #4e4e4e;
+}
+
+nav a:hover {
+  color: #01B1E9;
+  -webkit-transition-duration: 0.75s;
+          transition-duration: 0.75s;
 }
 /*# sourceMappingURL=nav.styles.css.map */

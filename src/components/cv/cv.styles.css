@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.cv {
+  width: 90%;
+  text-align: left;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  .cv {
+    width: 60%;
+    padding: 0 20px;
+  }
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  color: #01B1E9;
+  margin-top: 0;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+section {
+  padding: 10px 5px;
+  margin-bottom: 10px;
+}
+
+section span {
+  color: #FEB001;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul h4 {
+  margin-bottom: 0;
+}
+
+ul .educationTitle {
+  margin-top: 3px;
+}
+
+ul p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .skills {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+  .skills div {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=cv.styles.css.map */

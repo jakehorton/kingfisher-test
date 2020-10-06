@@ -1,5 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
 $blueColor:  #01B1E9;
 $orangeColor: #FEB001;
+$greyColor: #EDEAE9;
+$blackColor: #4e4e4e;
 
 $phone-breakpoint: 576px;
 $tablet-breakpoint: 768px;
@@ -9,3 +13,7 @@ $large-desktop-breakpoint: 1200px;
 $common-margin: 0 6%;
 $common-padding: 2% 6%;
 
+body {
+    font-family: 'Poppins', sans-serif;
+
+}

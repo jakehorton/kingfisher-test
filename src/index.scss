@@ -1,0 +1,10 @@
+@import './general-styling.styles.scss';
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    @media (min-width: $tablet-breakpoint) {
+        // background-color: $greyColor;
+    }
+}
