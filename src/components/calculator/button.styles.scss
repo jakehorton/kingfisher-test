@@ -1,0 +1,24 @@
+@import '../../general-styling.styles.scss';
+
+.btn {
+    width: 20%;
+    height: 100%;
+    font-size: 2rem;
+    border: 1px solid transparent;
+    border-radius: 50px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    margin: 5px;
+    &:hover {
+        color: $orangeColor;
+        background-color: white;
+    }
+    &:active {
+        transform: scale(0.7);
+    }
+
+    
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,mBAAmB,CAAC;EAChB,MAAM,EAAE,GAAG;EACX,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,QAAQ;EACzB,WAAW,EAAE,QAAQ;EACrB,aAAa,EAAE,IAAI;EACnB,cAAc,EAAE,IAAI;CACrB",
+    "sources": [
+        "computation-screen.styles.scss"
+    ],
+    "names": [],
+    "file": "computation-screen.styles.css"
+}

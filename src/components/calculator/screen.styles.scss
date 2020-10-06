@@ -1,0 +1,19 @@
+@import '../../general-styling.styles.scss';
+
+.screen {
+  height:25%;
+  width: 100%;
+  overflow: hidden;
+  background-color: $greyColor;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  
+
+  @media (min-width: $tablet-breakpoint) {
+    border-radius: 10px 10px 0 0 ;
+    margin: 1px;
+  }
+    
+}

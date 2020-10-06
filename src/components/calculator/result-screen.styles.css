@@ -1,0 +1,16 @@
+.result-screen {
+  height: 20%;
+  font-size: 2rem;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding-right: 25px;
+}
+/*# sourceMappingURL=result-screen.styles.css.map */

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './cv.styles.css'
 
 const Cv = () => (
