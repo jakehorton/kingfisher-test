@@ -14,7 +14,7 @@
 
 @media (min-width: 768px) {
   .keypad {
-    height: 50%;
+    height: 25vh;
   }
 }
 
@@ -22,9 +22,5 @@
   .keypad {
     height: 70%;
   }
-}
-
-.keypad .noBtn {
-  background: white;
 }
 /*# sourceMappingURL=keypad.styles.css.map */

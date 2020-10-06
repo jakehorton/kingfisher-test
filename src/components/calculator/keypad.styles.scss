@@ -8,14 +8,10 @@
     padding: 0;
 
     @media (min-width: $tablet-breakpoint) {
-      height: 50%;
+      height: 25vh
     }
 
     @media (min-width: $desktop-breakpoint) {
       height: 70%;
-    }
-
-    .noBtn {
-      background: white;
     }
   }
