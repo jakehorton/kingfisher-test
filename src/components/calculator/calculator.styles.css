@@ -13,14 +13,14 @@ body {
 @media (min-width: 768px) {
   .calculator {
     width: 40vw;
-    height: 50vh;
+    height: 35vh;
     border-radius: 10px;
     padding-bottom: 10px;
     border: 2px solid #EDEAE9;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .calculator {
     width: 25vw;
     height: 60vh;
