@@ -12,6 +12,10 @@
     align-items: center;
     transition: all .2s;
     margin: 5px;
+
+    @media (min-width: $tablet-breakpoint) {
+        font-size: 1.5rem;
+    }
     &:hover {
         color: $orangeColor;
         background-color: white;

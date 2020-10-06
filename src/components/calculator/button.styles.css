@@ -20,6 +20,12 @@
   margin: 5px;
 }
 
+@media (min-width: 768px) {
+  .btn {
+    font-size: 1.5rem;
+  }
+}
+
 .btn:hover {
   color: #FEB001;
   background-color: white;
