@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
-body {
-  font-family: 'Poppins', sans-serif;
-}
-
 .keypad {
   height: 50vh;
   width: 100%;
@@ -26,5 +22,9 @@ body {
   .keypad {
     height: 70%;
   }
+}
+
+.keypad .noBtn {
+  background: white;
 }
 /*# sourceMappingURL=keypad.styles.css.map */

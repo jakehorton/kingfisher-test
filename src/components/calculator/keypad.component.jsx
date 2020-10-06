@@ -5,7 +5,6 @@ import './keypad.styles.css'
 
 const keypad = (props) => (
   <section className="keypad">
-
     <KeypadRow>
       <Button onButtonPress={props.onButtonPress}>C</Button>
       <Button onButtonPress={props.onButtonPress}>CE</Button>

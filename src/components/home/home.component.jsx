@@ -6,6 +6,11 @@ const Home = () => (
         <h1>
             Kingfisher technical test
         </h1>
+
+        <h2>
+            The Brief
+        </h2>
+        <hr></hr>
         <p>
             A	small	web	application	is	to	be	built	and	delivered	to	us	in	order	to	strengthen	the	application	for	
             this	role.	Candidate	is	to	demonstrate	technical	ability by	showing	HTML,	CSS	and	JavaScript
