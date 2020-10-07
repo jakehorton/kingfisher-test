@@ -3,7 +3,7 @@ import KeypadRow from './keypadRow.component';
 import Button from './button.component';
 import './keypad.styles.css'
 
-const keypad = (props) => (
+const Keypad = (props) => (
   <section className="keypad">
     <KeypadRow>
       <Button onButtonPress={props.onButtonPress}>C</Button>
@@ -42,4 +42,4 @@ const keypad = (props) => (
   </section>
 );
 
-export default keypad;
+export default Keypad;
