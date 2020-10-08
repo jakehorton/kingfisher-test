@@ -26,6 +26,10 @@ class Calculator extends React.Component {
             alert('Invalid Mathematical Equation');
           }
         }
+        else {
+          equation = equation.trim();
+          equation = equation.substr(0, equation.length - 1);
+        }
         
                     
         this.setState({equation: equation});
